@@ -176,7 +176,7 @@ public static void main(String[] args){
 		Class.forName(driver);
 		conn = DriverManager.getConnection(url, id, pw);
 		stmt = conn.createStatement();
-		result = stmt.executeQuery(sql);
+		result = stmt.executeUpdate(sql);
 			
 		if(result > 0){
 			conn.commit(); // 데이터 추가 후 커밋
