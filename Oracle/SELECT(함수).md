@@ -31,7 +31,7 @@
 ### LTRIM, RTRIM, TRIM
 - 문자열의 앞, 뒤, 양쪽에 있는 특정 문자를 제거한 나머지 문자열을 반환 합니다.
 - 제거할 문자열 생략시 기본값이 공백 입니다.
-```
+```sql
 RTRIM, LTRIM(문자열, 제거할문자열);
 
 TRIM([LEADING, TRAILING, BOTH] '제거할문자' FRIM 문자열)
@@ -46,7 +46,7 @@ TRIM([LEADING, TRAILING, BOTH] '제거할문자' FRIM 문자열)
 - LOWER : 전부 소문자로 변형
 - UPPER : 전부 대문자로 변형
 - INITCAP : 앞 한글자만 대문자로 변형
-```
+```sql
 LOWER, UPPER, INITCAP(문자열);
 ```
 
@@ -54,7 +54,7 @@ LOWER, UPPER, INITCAP(문자열);
 
 ### REPLACE
 - 특정문자열을 찾아서 특정문자로 변경시킵니다.
-```
+```sql
 REPLACE(문자열, 찾는문자, 변경할문자)
 
 REPLACE('Hello', 'll', 'LL');
@@ -67,7 +67,7 @@ REPLACE('Hello', 'll', 'LL');
 
 ### ABS
 - 숫자의 절대값을 구합니다.
-```
+```sql
 ABS(숫자);
 ```
 
@@ -75,7 +75,7 @@ ABS(숫자);
 
 ### MOD
 - 두 수를 나누고 나머지 값을 반환합니다.
-```
+```sql
 MOD(숫자, 숫자);
 ```
 
@@ -86,7 +86,7 @@ MOD(숫자, 숫자);
 - CEIL : 올림 값을 반환합니다.
 - FLOOR : 버림 값을 반환합니다.
 - TRUNC : 위치지정 가능한 버림처리를 합니다.
-```
+```sql
 ROUND, CEIL, FLOOR(소수);
 TRUNC(소수, [소수점위치]);
 ```
@@ -97,7 +97,7 @@ TRUNC(소수, [소수점위치]);
 
 ### MONTHS BETWEEN
 - 두 날짜 사이의 개월수를 반환합니다.
-```
+```sql
 MONTHS BETWEEN(날짜1, 날짜2)
 ```
 
@@ -105,7 +105,7 @@ MONTHS BETWEEN(날짜1, 날짜2)
 
 ### ADD MONTHS
 - 특정 날짜에서 숫자만큼의 개월수를 더해 그 날짜를 반환합니다.
-```
+```sql
 ADD MONTHS(날짜, 개월수)
 ```
 
@@ -114,7 +114,7 @@ ADD MONTHS(날짜, 개월수)
 ### NEXT_DAY, LAST_DAY
 - NEXT_DAY : 해당 날짜에서 가까운 요일의 날짜를 반환
 - LAST_DAY : 해당 월의 마지막 날짜를 반환
-```
+```sql
 NEXT_DAY(날짜, 요일)
 LAST_DAY(날짜)
 ```
@@ -123,7 +123,7 @@ LAST_DAY(날짜)
 
 ### EXTRACT
 - 특정 날짜를 년, 월, 일로 값을 추출해서 반환합니다.
-```
+```sql
 EXTRACT(YEAR FROM 날짜);
 EXTRACT(MONTH FROM 날짜);
 EXTRACT(DAY FROM 날짜);
@@ -136,7 +136,7 @@ EXTRACT(DAY FROM 날짜);
 
 ### NVL
 - 해당 컬럼에 NULL값이 존재할 경우 지정한반환값을 반환합니다.
-```
+```sql
 NVL(컬럼명, NULL일때반환값);
 ```
 
@@ -144,7 +144,7 @@ NVL(컬럼명, NULL일때반환값);
 
 ### NVL2
 - 해당 컬럼값이 존재할 경우 반환값1 반환, NULL일 경우 반환값2 반환
-```
+```sql
 NVL2(컬럼명, 반환값1, 반환값2);
 ```
 
@@ -152,7 +152,7 @@ NVL2(컬럼명, 반환값1, 반환값2);
 
 ### NULLIF
 - 두 개의 값이 일치하면 NULL반환, 일치하지 않으면 비교대상1 값 반환
-```
+```sql
 NULLIF(비교대상1, 비교대상2)
 ```
 
@@ -163,14 +163,14 @@ NULLIF(비교대상1, 비교대상2)
 
 ### DECODE
 - Java에서 Switch문과 비슷한 개념 입니다.
-```
+```sql
 DECODE(비교대상컬럼명, 비교값1, 결과값1, 비교값2, 결과값2, ..., [결과값]);
 ```
 
 <br>
 
 ### CASE WHEN THEN
-```
+```sql
 CASE WHEN 조건식1 THEN 결과값1
      WHEN 조건식2 THEN 결과값2
      ...
@@ -186,7 +186,7 @@ END [AS 별칭가능]
 ### SUM, AVG
 - SUM : 해당 컬럼 값의 총합을 구해서 반환합니다.
 - AVG : 해당 컬럼 값의 평균을 구해서 반환합니다.
-```
+```sql
 SUM, AVG(NUMBER타입컬럼);
 ```
 
@@ -195,7 +195,7 @@ SUM, AVG(NUMBER타입컬럼);
 ### MAX, MIM
 - MAX : 컬럼에서 가장 큰 값을 반환합니다.
 - MIN : 컬럼에서 가장 작은 값을 반환합니다.
-```
+```sql
 MAX, MIN(NUMBER타입컬럼);
 ```
 
@@ -204,7 +204,7 @@ MAX, MIN(NUMBER타입컬럼);
 ### COUNT
 - 해당 컬럼의 행 수를 반환합니다.
 - NULL값은 포함하지 않습니다. NULL값도 포함하기 위해서는 NVL함수를 응용 합니다.
-```
+```sql
 COUNT(*)
 COUNT(컬럼명)
 COUNT(DISTINCT 컬럼명)
@@ -221,7 +221,7 @@ COUNT(DISTINCT 컬럼명)
 <br>
 
 ##### 숫자타입 => 문자타입
-```
+```sql
 TO_CHAR(1234, '99999') --빈칸을 공백으로 채웁니다.
 TO_CHAR(1234, '00000') --빈칸을 0으로 채웁니다.
 TO_CHAR(1234, 'L99999') --현재 설정된 나라의 화폐단위
@@ -231,7 +231,7 @@ TO_CHAR(100000000, 'L999,999,999') --빈칸을 0으로 채웁니다.
 <br>
 
 ##### 날짜타입 => 문자타입
-```
+```sql
 TO_CHAR(날짜, 'YYYY-MM-DD DAY');
 TO_CHAR(날짜, 'HH24-MI-SS'); --24시간형식, 12시간형식, AM, PM
 TO_CHAR(날짜, 'YY-FMMM-DD'); --FM은 0을 없애줍니다.
@@ -246,7 +246,7 @@ TO_CHAR(날짜, 'YYYY"년", MM"월", DD"일" (DAY)) -- 0000년 00월 00일 0요�
 
 ### TO_DATE
 - 숫자타입, 문자타입의 값을 날짜타입으로 변환시켜주는 함수입니다.
-```
+```sql
 TO_DATE(19970804);
 TO_DATE(970804);
 TO_DATE('970804');
@@ -263,7 +263,7 @@ TO_DATE(970804, 'RRMMDD');
 
 ### TO_NUMBER
 - 문자타입의 값을 숫자타입으로 변환시켜주는 함수입니다.
-```
+```sql
 TO_NUMBER(문자, [포맷]);
 
 TO_NUMBER('1,000,000', '9,999,999')
