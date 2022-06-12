@@ -74,3 +74,57 @@ END;
 /
 ```
 
+<br>
+
+### 실행부
+##### IF문
+```sql
+DECLARE
+    구문
+BEGIN
+    SELECT 컬럼명
+    INTO 변수명
+    FROM 테이블명
+    WHERE 조건식
+    
+    IF 조건식
+    THEN 실행문
+    ELSE 실행문
+    END IF;
+END;
+/
+```
+```sql
+DECLARE
+    구문
+BEGIN
+    SELECT 컬럼명
+    INTO 변수명
+    FROM 테이블명
+    WHERE 조건식
+    
+    IF 조건식
+    ELSIF 실행문
+    ELSE 실행문
+    END IF;
+END;
+/
+```
+##### CASE문
+```sql
+DECLARE
+    구문
+BEGIN
+    SELECT 컬럼명
+    INTO 변수명
+    FROM 테이블명
+    WHERE 조건식
+    
+    변수 := CASE 비교대상자
+                WHEN 비교값 THEN 반환값
+                ELSE 반환값
+            END;
+END;
+/
+```
+##### LOOP문
