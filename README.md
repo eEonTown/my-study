@@ -17,7 +17,7 @@
 <br>
 
 ### Database
-- [`Oracle`](https://github.com/eEonTown/my-study/blob/main/Java/JDBC.md)
+- [`Oracle`](https://github.com/eEonTown/my-study/tree/main/Oracle)
 
 <br>
 
@@ -32,6 +32,3 @@
 ### JavaScript
 
 <br>
-
-
-https://github.com/eEonTown/my-study/blob/main/Java/JDBC.md
