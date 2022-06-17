@@ -20,10 +20,12 @@
 > 시맨틱 태그로 작성된 코드를 봤을 때 각 구조마다 어떤 의미인지 알아볼 수 있고 코드를 읽을 때도 훨씬 편하다.
 
 ### 자주 사용하는 Semantic tag 목록
-- <header></header>
-- <nav></nav>  
-- <section></section>  
-- <article></article>  
-- <aside></aside>  
-- <footer></footer>  
-- <address></address>
+```html
+<header></header>
+<nav></nav>  
+<section></section>  
+<article></article>  
+<aside></aside>  
+<footer></footer>  
+<address></address>
+```
