@@ -1,1 +1,1 @@
-# my-study
+#  <p align="center">🏃 My Study</p>
