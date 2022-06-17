@@ -2,7 +2,7 @@
 
 <br>
 
-### index
+### ndex
 - [Java](#Java)
 - [Database](#Database)
 - [HTML](#HTML)
