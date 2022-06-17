@@ -12,10 +12,12 @@
 <br>
 
 ### Java
+- [`JAVA 자바 JDBC 오라클 DB 연동`](https://github.com/eEonTown/my-study/blob/main/Java/JDBC.md)
 
 <br>
 
 ### Database
+- [`Oracle`](https://github.com/eEonTown/my-study/blob/main/Java/JDBC.md)
 
 <br>
 
@@ -30,3 +32,6 @@
 ### JavaScript
 
 <br>
+
+
+https://github.com/eEonTown/my-study/blob/main/Java/JDBC.md
