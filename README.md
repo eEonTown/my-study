@@ -18,6 +18,7 @@
 
 ### Database
 - [`Oracle`](https://github.com/eEonTown/my-study/tree/main/Oracle)
+- [`MySQL`](https://github.com/eEonTown/my-study/tree/main/MySQL)
 
 <br>
 
