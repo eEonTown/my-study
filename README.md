@@ -27,7 +27,8 @@
 <br>
 
 ### CSS
-
+- [`reset`](https://github.com/eEonTown/my-study/blob/main/CSS/reset.md)
+- [`우선순위`](https://github.com/eEonTown/my-study/blob/main/CSS/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84.md)
 <br>
 
 ### JavaScript
