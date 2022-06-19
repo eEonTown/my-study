@@ -16,4 +16,4 @@
 - 변수에 값을 재할당 불가능합니다(상수)
 - block단위의 scope를 가집니다.
 
-![var,let,const정리](C:\Users\gjswn\Desktop\Etc\표.png)
+![var,let,const정리](표.png)
