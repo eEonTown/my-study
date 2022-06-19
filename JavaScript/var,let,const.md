@@ -16,4 +16,6 @@
 - 변수에 값을 재할당 불가능합니다(상수)
 - block단위의 scope를 가집니다.
 
-![var,let,const정리](표.png)
+
+
+![image](https://user-images.githubusercontent.com/102468071/174465056-c07858f1-c88f-46e4-8801-78a7de6f8a27.png))
