@@ -127,3 +127,8 @@ CREATE TABLE 테이블명
     컬럼명 자료형 [CONSTRAINT 제약조건명] NOT NULL
 );
 ```
+
+<br>
+<br>
+
+# ALTER
