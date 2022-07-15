@@ -9,6 +9,7 @@
 - [CSS](#CSS)
 - [JavaScript](#JavaScript)
 - [Server](#Server)
+- [JSP](#JSP)
 
 <br>
 
@@ -50,3 +51,8 @@
 ### Server
 - [`디렉토리 구조`](https://github.com/eEonTown/my-study/blob/main/Server/%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EA%B5%AC%EC%A1%B0.md)
 - [`Eclipse Tomcat Server`](https://github.com/eEonTown/my-study/blob/main/Server/Eclipse_Tomcat_Server.md)
+
+<br>
+
+### JSP
+- [`MultipartRequest파일업로드`](https://github.com/eEonTown/my-study/blob/main/JSP/MultipartRequest%ED%8C%8C%EC%9D%BC%EC%97%85%EB%A1%9C%EB%93%9C.md)
